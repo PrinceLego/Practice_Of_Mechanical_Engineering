@@ -1,0 +1,9 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'Practice_of_Mechanical_Engineering.blg'
+[46] biber-darwin:340> INFO - === Thu Apr 10, 2025, 23:31:27
+[56] Biber.pm:419> INFO - Reading 'Practice_of_Mechanical_Engineering.bcf'
+[100] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[109] bbl.pm:660> INFO - Writing 'Practice_of_Mechanical_Engineering.bbl' with encoding 'UTF-8'
+[109] bbl.pm:763> INFO - Output to Practice_of_Mechanical_Engineering.bbl
+[109] Biber.pm:131> WARN - The file 'Practice_of_Mechanical_Engineering.bcf' does not contain any citations!
+[109] Biber.pm:133> INFO - WARNINGS: 1
