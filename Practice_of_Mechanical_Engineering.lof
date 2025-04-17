@@ -1,0 +1,26 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces 競賽跑道}}{1}{}%
+\contentsline {figure}{\numberline {2}{\ignorespaces 車體結構草圖}}{2}{}%
+\contentsline {figure}{\numberline {3}{\ignorespaces 影像辨識系統草圖}}{3}{}%
+\contentsline {figure}{\numberline {4}{\ignorespaces 轉向、燈光系統草圖}}{3}{}%
+\contentsline {figure}{\numberline {5}{\ignorespaces 自動控制系統草圖}}{4}{}%
+\contentsline {figure}{\numberline {6}{\ignorespaces 輪椅草圖}}{4}{}%
+\contentsline {figure}{\numberline {7}{\ignorespaces 硬體架構圖}}{5}{}%
+\contentsline {figure}{\numberline {8}{\ignorespaces 影像循線演算法流程圖}}{9}{}%
+\contentsline {figure}{\numberline {9}{\ignorespaces 車輛速度定義}}{9}{}%
+\contentsline {figure}{\numberline {10}{\ignorespaces 影像預處理流程圖}}{9}{}%
+\contentsline {figure}{\numberline {11}{\ignorespaces 相機拍攝之原始影像}}{10}{}%
+\contentsline {figure}{\numberline {12}{\ignorespaces 車輛座標系與像素坐標系關係之示意圖}}{10}{}%
+\contentsline {figure}{\numberline {13}{\ignorespaces 透視變換流程圖}}{11}{}%
+\contentsline {figure}{\numberline {14}{\ignorespaces 尚未滑動之偵測視窗}}{14}{}%
+\contentsline {figure}{\numberline {15}{\ignorespaces 滑動後之偵測視窗}}{14}{}%
+\contentsline {figure}{\numberline {16}{\ignorespaces 擬合後曲線}}{15}{}%
+\contentsline {figure}{\numberline {17}{\ignorespaces 擬合後曲線與車輛座標系之$x$軸}}{16}{}%
+\contentsline {figure}{\numberline {18}{\ignorespaces 偏差角度$angle(\theta )$隸屬函數}}{18}{}%
+\contentsline {figure}{\numberline {19}{\ignorespaces 位置偏移量$distance(mm)$隸屬函數}}{19}{}%
+\contentsline {figure}{\numberline {20}{\ignorespaces 前進速度$V_{x}$隸屬函數}}{20}{}%
+\contentsline {figure}{\numberline {21}{\ignorespaces 側向數度$V_{y}$隸屬函數}}{22}{}%
+\contentsline {figure}{\numberline {22}{\ignorespaces 角速度$\omega $隸屬函數}}{23}{}%
+\contentsline {figure}{\numberline {23}{\ignorespaces 不同偏差角度及偏移量對應之前進速度$V_{x}$}}{25}{}%
+\contentsline {figure}{\numberline {24}{\ignorespaces 不同偏差角度及偏移量對應之側向數度$V_{y}$}}{26}{}%
+\contentsline {figure}{\numberline {25}{\ignorespaces 不同偏差角度及偏移量對應之角速度$\omega $}}{26}{}%
+\contentsline {figure}{\numberline {26}{\ignorespaces bom表}}{28}{}%
