@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.1.24)  18 APR 2025 02:01
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.1.24)  18 APR 2025 15:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1036,34 +1036,34 @@ Package: setspace 2022/12/04 v6.7b set line spacing
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 78.
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 79.
  (./Practice_of_Mechanical_Engineering.aux)
 \openout1 = `Practice_of_Mechanical_Engineering.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 78.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 79.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 79.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 78.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 79.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/english.lbx
@@ -1099,8 +1099,8 @@ Package fontspec Info: Font family 'TimesNewRoman(2)' created for font 'Times
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 )
-Package biblatex Info: Reference section=0 on input line 78.
-Package biblatex Info: Reference segment=0 on input line 78.
+Package biblatex Info: Reference section=0 on input line 79.
+Package biblatex Info: Reference segment=0 on input line 79.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1138,42 +1138,42 @@ Package biblatex Info: Reference segment=0 on input line 78.
 
 [1
 
-] [1] [2] (./Practice_of_Mechanical_Engineering.toc
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1.
+] (./Practice_of_Mechanical_Engineering.toc
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 1.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 3.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 1.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 3.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 1.
+(Font)              <12> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 1.
+(Font)              <8> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 1.
+(Font)              <6> on input line 3.
 )
 \tf@toc=\write6
 \openout6 = `Practice_of_Mechanical_Engineering.toc'.
 
- [3] (./Practice_of_Mechanical_Engineering.lof)
+ [1] (./Practice_of_Mechanical_Engineering.lof [2])
 \tf@lof=\write7
 \openout7 = `Practice_of_Mechanical_Engineering.lof'.
 
- [4] (./Practice_of_Mechanical_Engineering.lot)
+ [3] (./Practice_of_Mechanical_Engineering.lot)
 \tf@lot=\write8
 \openout8 = `Practice_of_Mechanical_Engineering.lot'.
 
- [5]
+ [4]
 File: 1.jpg Graphic file (type bmp)
 <1.jpg>
  [1]
@@ -1242,9 +1242,49 @@ File: 26.jpg Graphic file (type bmp)
 File: 27.jpg Graphic file (type bmp)
 <27.jpg>
  [26]
+File: 35.jpg Graphic file (type bmp)
+<35.jpg>
+File: 35.jpg Graphic file (type bmp)
+<35.jpg>
+File: frame_with_points_real.jpg Graphic file (type bmp)
+<frame_with_points_real.jpg>
+ [27]
+File: 37.jpg Graphic file (type bmp)
+<37.jpg>
+File: 38.jpg Graphic file (type bmp)
+<38.jpg>
+ [28]
+File: 39.jpg Graphic file (type bmp)
+<39.jpg>
+File: 40.jpg Graphic file (type bmp)
+<40.jpg>
+ [29]
+File: 41.jpg Graphic file (type bmp)
+<41.jpg>
+File: 42.jpg Graphic file (type bmp)
+<42.jpg>
+File: 43.jpg Graphic file (type bmp)
+<43.jpg>
+ [30]
+File: 44.jpg Graphic file (type bmp)
+<44.jpg>
+ [31]
+File: 28.jpg Graphic file (type bmp)
+<28.jpg>
+ [32]
+File: 29.jpg Graphic file (type bmp)
+<29.jpg>
+File: 28.jpg Graphic file (type bmp)
+<28.jpg>
+File: 28.jpg Graphic file (type bmp)
+<28.jpg>
+ [33]
+File: 28.jpg Graphic file (type bmp)
+<28.jpg>
+ [34]
 File: 8.jpg Graphic file (type bmp)
 <8.jpg>
- [27] [28] (./Practice_of_Mechanical_Engineering.aux)
+ [35] [36] (./Practice_of_Mechanical_Engineering.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/08/05>
@@ -1254,12 +1294,12 @@ Package logreq Info: Writing requests to 'Practice_of_Mechanical_Engineering.run
 
  ) 
 Here is how much of TeX's memory you used:
- 32802 strings out of 474773
- 776164 string characters out of 5757724
- 1942839 words of memory out of 5000000
- 54432 multiletter control sequences out of 15000+600000
+ 32928 strings out of 474773
+ 777753 string characters out of 5757724
+ 1943839 words of memory out of 5000000
+ 54546 multiletter control sequences out of 15000+600000
  572899 words of font info for 80 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  103i,16n,107p,1234b,4739s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Practice_of_Mechanical_Engineering.xdv (34 pages, 244580 bytes).
+Output written on Practice_of_Mechanical_Engineering.xdv (41 pages, 294484 bytes).

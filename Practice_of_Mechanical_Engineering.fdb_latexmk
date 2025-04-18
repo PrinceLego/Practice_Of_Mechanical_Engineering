@@ -1,18 +1,18 @@
 # Fdb version 4
-["biber Practice_of_Mechanical_Engineering"] 1744906087.43574 "Practice_of_Mechanical_Engineering.bcf" "Practice_of_Mechanical_Engineering.bbl" "Practice_of_Mechanical_Engineering" 1744912882.25994 0
-  "Practice_of_Mechanical_Engineering.bcf" 1744912881.72755 107387 3958be5e3bdcb41b52f5f66ebe87398a "xelatex"
+["biber Practice_of_Mechanical_Engineering"] 1744906087.43574 "Practice_of_Mechanical_Engineering.bcf" "Practice_of_Mechanical_Engineering.bbl" "Practice_of_Mechanical_Engineering" 1744961864.83913 0
+  "Practice_of_Mechanical_Engineering.bcf" 1744961857.15049 107387 3958be5e3bdcb41b52f5f66ebe87398a "xelatex"
   "Practice_of_Mechanical_Engineering.bib" 1744894962.58911 2971 31f4ad3ef1ac466062df622f85559e48 ""
   (generated)
   "Practice_of_Mechanical_Engineering.bbl"
   "Practice_of_Mechanical_Engineering.blg"
   (rewritten before read)
-["xdvipdfmx"] 1744912881.80874 "Practice_of_Mechanical_Engineering.xdv" "Practice_of_Mechanical_Engineering.pdf" "Practice_of_Mechanical_Engineering" 1744912882.26176 0
-  "Practice_of_Mechanical_Engineering.xdv" 1744912881.72846 244580 87f1d4d1a1e897831cd327612d14dc51 "xelatex"
+["xdvipdfmx"] 1744961857.29481 "Practice_of_Mechanical_Engineering.xdv" "Practice_of_Mechanical_Engineering.pdf" "Practice_of_Mechanical_Engineering" 1744961864.84109 0
+  "Practice_of_Mechanical_Engineering.xdv" 1744961857.1515 294484 67e2607b7d5054f4b0809720c66c4f42 "xelatex"
   (generated)
   "Practice_of_Mechanical_Engineering.pdf"
   (rewritten before read)
-["xelatex"] 1744912880.29005 "/Users/prince_lego/Desktop/progarm/LeTaX/Practice_of_Mechanical_Engineering/Practice_of_Mechanical_Engineering.tex" "Practice_of_Mechanical_Engineering.xdv" "Practice_of_Mechanical_Engineering" 1744912882.26 0
-  "/Users/prince_lego/Desktop/progarm/LeTaX/Practice_of_Mechanical_Engineering/Practice_of_Mechanical_Engineering.tex" 1744912878.61678 47914 c65555b6cbb8c3af86b06d883a30844b ""
+["xelatex"] 1744961855.02094 "/Users/prince_lego/Desktop/progarm/LeTaX/Practice_of_Mechanical_Engineering/Practice_of_Mechanical_Engineering.tex" "Practice_of_Mechanical_Engineering.xdv" "Practice_of_Mechanical_Engineering" 1744961864.83919 0
+  "/Users/prince_lego/Desktop/progarm/LeTaX/Practice_of_Mechanical_Engineering/Practice_of_Mechanical_Engineering.tex" 1744961852.97804 54980 8cb025283fd9a8971765e8dbd61342db ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmr12.tfm" 1254269338 12092 7b1546e2d096cfd5dcbd4049b0b1ec2e ""
@@ -207,20 +207,32 @@
   "25.jpg" 1744904974.51762 40548 87e750c1b7b4b9b99beb3ff28b0881d6 ""
   "26.jpg" 1744904995.82044 29639 0ab0d2583f9a09e2f7f7fb5ee7f81a9d ""
   "27.jpg" 1744905018.69507 30842 3fd03c025bb8baf510af490f6df2620d ""
+  "28.jpg" 1744952663.62927 123013 6731f1fd3b73e7e932798f64c586e50b ""
+  "29.jpg" 1744952699.40253 41852 47216237aa463d548d9bbf784e22fad1 ""
   "3.jpg" 1744875616.38413 298463 470f3784097cebbb72041cb44ebadbaa ""
+  "35.jpg" 1740624494.00422 477668 e78c17e3dca183fce4863b6d642bcadc ""
+  "37.jpg" 1741598762.20433 990831 5e57b28e0e7027911ad57b8516db7aa6 ""
+  "38.jpg" 1741598776.88026 612556 620bb13f4263204c2505531b7fe116af ""
+  "39.jpg" 1741598792.62171 405860 bb7a788871fd19d59d4e76e6865c6710 ""
   "4.jpg" 1744875646.3624 248096 cdb4cccae0ce1e7da75003ac9dbc8f4f ""
+  "40.jpg" 1741598812.83099 55138 f2d57f4e62faf812e5e05eefe30d8cc3 ""
+  "41.jpg" 1741598832.97429 54524 f5c6379070cdcb3b871c438c1918e287 ""
+  "42.jpg" 1741599632.22545 992606 d036f65e4dc0a299dc00299587353908 ""
+  "43.jpg" 1741599641.1108 980011 5a9d445e00d371aac7acdbedcba5b3b8 ""
+  "44.jpg" 1741599670.01236 1004987 7c50d55b836ae0df5ff7e411e65a6632 ""
   "5.jpg" 1744875658.82405 287687 e8081fad75cdd0e2c5da178f2941a26a ""
   "6.jpg" 1744875669.52737 292935 7bc69ab4ba865b4194ec2247681b1fa3 ""
   "7.jpg" 1744875680.27828 295831 775fa5b34f85d67340f904be9087d188 ""
   "8.jpg" 1744875692.8313 857981 06d29d3686123d4af63268c08a140fbf ""
   "9.jpg" 1744893797.01511 146403 6e97a5aee3c423800ddd93ddc84346a0 ""
-  "Practice_of_Mechanical_Engineering.aux" 1744912881.72548 10101 30bd3b37d73758345c659707842facb1 "xelatex"
+  "Practice_of_Mechanical_Engineering.aux" 1744961857.14823 13056 2d36c7d9e240be20dce3daf2f4c2b422 "xelatex"
   "Practice_of_Mechanical_Engineering.bbl" 1744906090.86567 5345 125ca4dfc2f0893ca3ce2a917611173e "biber Practice_of_Mechanical_Engineering"
-  "Practice_of_Mechanical_Engineering.lof" 1744912881.72839 2408 50d2640c39505c2c4dcd4b5f16f6ab8d "xelatex"
-  "Practice_of_Mechanical_Engineering.lot" 1744912881.72841 327 e014ab0d31517e8d033cfef3ab3b6170 "xelatex"
-  "Practice_of_Mechanical_Engineering.run.xml" 1744912881.72826 2671 f6f2262698087135a76dd9fff4f71aec "xelatex"
-  "Practice_of_Mechanical_Engineering.tex" 1744912878.61678 47914 c65555b6cbb8c3af86b06d883a30844b ""
-  "Practice_of_Mechanical_Engineering.toc" 1744912881.72836 2521 2e5e32b1b1d23b4b5b54c32e314a76dc "xelatex"
+  "Practice_of_Mechanical_Engineering.lof" 1744961857.15137 3909 ad0fd338ea60b40e6d81cb113b165708 "xelatex"
+  "Practice_of_Mechanical_Engineering.lot" 1744961857.15139 407 64470e1ff1c44290178825e14568057d "xelatex"
+  "Practice_of_Mechanical_Engineering.run.xml" 1744961857.15123 2671 f6f2262698087135a76dd9fff4f71aec "xelatex"
+  "Practice_of_Mechanical_Engineering.tex" 1744961852.97804 54980 8cb025283fd9a8971765e8dbd61342db ""
+  "Practice_of_Mechanical_Engineering.toc" 1744961857.15135 2587 a18821486d3517e27dd9a713843b4fcc "xelatex"
+  "frame_with_points_real.jpg" 1728892543.75538 447822 cd000d5bab1f5a3aea2bce007e6205e0 ""
   (generated)
   "Practice_of_Mechanical_Engineering.aux"
   "Practice_of_Mechanical_Engineering.bcf"
