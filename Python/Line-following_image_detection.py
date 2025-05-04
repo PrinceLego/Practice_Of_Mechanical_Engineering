@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 
 def main(images_path):
 
-    def apply_perspective_transform_and_draw_grid_on_image(image_path,pitch=-45,h=0.09,HFOV = 70.42,VFOV = 43.3):
+    def apply_perspective_transform_and_draw_grid_on_image(image_path,pitch=-45,h=0.09,HFOV = 54,VFOV = 44):
         
         
         """
@@ -296,105 +296,8 @@ def main(images_path):
         隸屬函數尚需依照實際車速調整
         """
             
-        #定義輸入變數
-        angle = ctrl.Antecedent(np.arange(-30, 30, 0.1), 'angle')         # 角度偏差 (-30° ~ 30°)
-        position = ctrl.Antecedent(np.arange(-10, 10, 0.1), 'position')   # 位置偏移 (-10 ~ 10)
-
-        #定義輸出變數
-        Vx = ctrl.Consequent(np.arange(0, 10, 0.1), 'Vx')
-        Vy = ctrl.Consequent(np.arange(-10, 10, 0.1), 'Vy')
-        omega = ctrl.Consequent(np.arange(-3, 3, 0.1), 'omega')
-
-        #定義隸屬函數
-        angle['BL'] = fuzz.trimf(angle.universe, [-30, -30, -15])
-        angle['SL'] = fuzz.trimf(angle.universe, [-20, -10, 0])
-        angle['Z'] = fuzz.trimf(angle.universe, [-5, 0, 5])
-        angle['SR'] = fuzz.trimf(angle.universe, [0, 10, 20])
-        angle['BR'] = fuzz.trimf(angle.universe, [15, 30, 30])
-
-        position['BL'] = fuzz.trimf(position.universe, [-10, -10, -5])
-        position['SL'] = fuzz.trimf(position.universe, [-7, -3, 0])
-        position['Z'] = fuzz.trimf(position.universe, [-3, 0, 3])
-        position['SR'] = fuzz.trimf(position.universe, [0, 3, 7])
-        position['BR'] = fuzz.trimf(position.universe, [5, 10, 10])
-
-        Vx['S'] = fuzz.trapmf(Vx.universe, [0, 0, 2.5, 5])          #慢速
-        Vx['M'] = fuzz.trimf(Vx.universe, [2.5, 5, 7.5])                 #中速
-        Vx['F'] = fuzz.trapmf(Vx.universe, [5, 7.5, 10, 10])             #快速
-
-        Vy['LL'] = fuzz.trapmf(Vy.universe, [-10, -10, -7,-4])             #最左
-        Vy['L'] = fuzz.trimf(Vy.universe, [-6, -3, 0])              #左
-        Vy['Z'] = fuzz.trimf(Vy.universe, [-4, 0, 4])                 #中間
-        Vy['R'] = fuzz.trimf(Vy.universe, [0, 3, 6])                 #右
-        Vy['RR'] = fuzz.trapmf(Vy.universe, [4, 7, 10,10])                #最右
-
-
-        omega['CCW2'] = fuzz.trapmf(omega.universe, [-3, -3, -2,-1])     #強烈逆時針
-        omega['CCW'] = fuzz.trimf(omega.universe, [-2, -1, 0])      #輕微逆時針
-        omega['Z'] = fuzz.trimf(omega.universe, [-1, 0, 1])           #中間
-        omega['CW'] = fuzz.trimf(omega.universe, [0, 1, 2])          #輕微順時針
-        omega['CW2'] = fuzz.trapmf(omega.universe, [1, 2, 3, 3])         #強烈順時
-
-        #定義位置控制規則
-        rules = [
-            ctrl.Rule((angle['BL'] & position['BL']), (Vx['S'], Vy['RR'], omega['CW2'])),
-            ctrl.Rule((angle['SL'] & position['BL']), (Vx['S'], Vy['RR'], omega['CW'])),
-            ctrl.Rule((angle['Z'] & position['BL']), (Vx['M'], Vy['RR'], omega['Z'])),
-            ctrl.Rule((angle['SR'] & position['BL']), (Vx['S'], Vy['RR'], omega['CCW'])),
-            ctrl.Rule((angle['BR'] & position['BL']), (Vx['S'], Vy['RR'], omega['CCW2'])),
-                    
-            ctrl.Rule((angle['BL'] & position['SL']), (Vx['S'], Vy['R'], omega['CW2'])),
-            ctrl.Rule((angle['SL'] & position['SL']), (Vx['M'], Vy['R'], omega['CW'])),
-            ctrl.Rule((angle['Z'] & position['SL']), (Vx['F'], Vy['R'], omega['Z'])),
-            ctrl.Rule((angle['SR'] & position['SL']), (Vx['M'], Vy['R'], omega['CCW'])),
-            ctrl.Rule((angle['BR'] & position['SL']), (Vx['S'], Vy['R'], omega['CCW2'])),
-                    
-            ctrl.Rule((angle['BL'] & position['Z']), (Vx['S'], Vy['Z'], omega['CW2'])),
-            ctrl.Rule((angle['SL'] & position['Z']), (Vx['F'], Vy['Z'], omega['CW'])),
-            ctrl.Rule((angle['Z'] & position['Z']), (Vx['F'], Vy['Z'], omega['Z'])),
-            ctrl.Rule((angle['SR'] & position['Z']), (Vx['F'], Vy['Z'], omega['CCW'])),
-            ctrl.Rule((angle['BR'] & position['Z']), (Vx['S'], Vy['Z'], omega['CCW2'])),
-                    
-            ctrl.Rule((angle['BL'] & position['SR']), (Vx['S'], Vy['L'], omega['CW2'])),
-            ctrl.Rule((angle['SL'] & position['SR']), (Vx['M'], Vy['L'], omega['CW'])),
-            ctrl.Rule((angle['Z'] & position['SR']), (Vx['F'], Vy['L'], omega['Z'])),
-            ctrl.Rule((angle['SR'] & position['SR']), (Vx['M'], Vy['L'], omega['CCW'])),
-            ctrl.Rule((angle['BR'] & position['SR']), (Vx['S'], Vy['L'], omega['CCW2'])),
-                    
-            ctrl.Rule((angle['BL'] & position['BR']), (Vx['S'], Vy['LL'], omega['CW2'])),
-            ctrl.Rule((angle['SL'] & position['BR']), (Vx['S'], Vy['LL'], omega['CW'])),
-            ctrl.Rule((angle['Z'] & position['BR']), (Vx['M'], Vy['LL'], omega['Z'])),
-            ctrl.Rule((angle['SR'] & position['BR']), (Vx['S'], Vy['LL'], omega['CCW'])),
-            ctrl.Rule((angle['BR'] & position['BR']), (Vx['S'], Vy['LL'], omega['CCW2'])),
-        ]
-
-
-        #建立模糊控制系統
-        control_system = ctrl.ControlSystem(rules)
-        simulator = ctrl.ControlSystemSimulation(control_system)
-        
-        Vx_results, Vy_results, omega_results = [], [], []
-        
-        #設定輸入並計算
-        for angle_input, position_input in zip(angle_input, position_input):
-            simulator.input['angle'] = angle_input
-            simulator.input['position'] = position_input
-            simulator.compute()
-            Vx_results.append(simulator.output['Vx'])
-            Vy_results.append(simulator.output['Vy'])
-            omega_results.append(simulator.output['omega'])
-
-        #使用模糊集合的 α-截集 (Alpha Cut)
-        #只取 排名前 80% 的值來避免極端值影響
-
-        Vx_sorted = sorted(Vx_results)
-        Vy_sorted = sorted(Vy_results)
-        omega_sorted = sorted(omega_results)
-
-        Vx_out = np.mean(Vx_sorted[:int(len(Vx_sorted) * 0.8)]) if Vx_sorted else 0
-        Vy_out = np.mean(Vy_sorted[:int(len(Vy_sorted) * 0.8)]) if Vy_sorted else 0
-        omega_out = np.mean(omega_sorted[-int(len(omega_sorted) * 0.8):]) if omega_sorted else 0
-
+        # 定義模糊輸入變數
+    	
         #計算麥克納姆輪速度
         """
         V_FL = Vx_out - Vy_out - omega_out

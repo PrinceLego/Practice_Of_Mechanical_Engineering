@@ -90,7 +90,7 @@
     \vfill % 這一行讓前面的資訊靠上排列
 
     {\LARGE{孤輪阿罵的飆速輪椅}} \\[0.5cm]% 這行會上下左右完全置中
-    {\LARGE{機械工程實務進度報告1}} % 這行會上下左右完全置中
+    {\LARGE{機械工程實務進度報告2}} % 這行會上下左右完全置中
 
     \vfill % 這一行讓後面的資訊靠下排列
 
@@ -210,9 +210,9 @@
 
 
 \begin{itemize}
-    \item 1100826 王子晨：演算法設計、期末報告撰寫
+    \item 1100826 王子晨：演算法設計、報告撰寫
     \item 1100854 蘇威全：風扇設計、流力分析
-    \item 1100862 施廷翰：車體設計
+    \item 1100862 施廷翰：車體設計、車體分析
     \item 1100812 魏羽暘：簡報製作
     \item 1100861 盧昀序：製作阿罵
 \end{itemize}
@@ -709,8 +709,8 @@ $a,b,c$ 為待求的係數。使用最小二乘法（Least Squares Method, LSM�
 \begin{align}
     \text{angle}_{\text{BL}}(x) = 
     \begin{cases}
-    1 & x \le -30 \\
-    \frac{x + 30}{15} & -30 < x \le -15 \\
+    1 & x \le -25 \\
+    \frac{x + 25}{15} & -25 < x \le -15 \\
     0 & \text{otherwise}
     \end{cases}    
 \end{align}
@@ -718,8 +718,8 @@ $a,b,c$ 為待求的係數。使用最小二乘法（Least Squares Method, LSM�
 \begin{align}
     \text{angle}_{\text{SL}}(x) = 
     \begin{cases}
-    \frac{x + 30}{15} & -30 < x \le -15 \\
-    \frac{-x}{15} & -15 < x \le 0 \\
+    \frac{x + 25}{15} & -25 < x \le -15 \\
+    \frac{-x}{10} & -15 < x \le 0 \\
     0 & \text{otherwise}
     \end{cases}    
 \end{align}
@@ -727,8 +727,8 @@ $a,b,c$ 為待求的係數。使用最小二乘法（Least Squares Method, LSM�
 \begin{align}
     \text{angle}_{Z}(x) = 
     \begin{cases}
-    \frac{x + 15}{15} & -15 < x \le 0 \\
-    \frac{15 - x}{15} & 0 < x \le 15 \\
+    \frac{x + 5}{5} & -15 < x \le 0 \\
+    \frac{5 - x}{5} & 0 < x \le 15 \\
     0 & \text{otherwise}
     \end{cases}    
 \end{align}
@@ -737,7 +737,7 @@ $a,b,c$ 為待求的係數。使用最小二乘法（Least Squares Method, LSM�
     \text{angle}_{\text{SR}}(x) = 
     \begin{cases}
     \frac{x}{15} & 0 < x \le 15 \\
-    \frac{30 - x}{15} & 15 < x \le 30 \\
+    \frac{25 - x}{10} & 15 < x \le 25 \\
     0 & \text{otherwise}
     \end{cases}    
 \end{align}
@@ -745,8 +745,8 @@ $a,b,c$ 為待求的係數。使用最小二乘法（Least Squares Method, LSM�
 \begin{align}
     \text{angle}_{\text{BR}}(x) = 
     \begin{cases}
-    \frac{x - 15}{15} & 15 < x \le 30 \\
-    1 & x \ge 30 \\
+    \frac{x - 15}{15} & 15 < x \le 25 \\
+    1 & x \ge 25 \\
     0 & \text{otherwise}
     \end{cases}    
 \end{align}
@@ -764,8 +764,8 @@ $a,b,c$ 為待求的係數。使用最小二乘法（Least Squares Method, LSM�
 \begin{align}
     \text{distance}_{\text{BL}}(x) = 
     \begin{cases}
-    1 & x \le -50 \\
-    \frac{x + 50}{25} & -50 < x \le -25 \\
+    1 & x \le -35 \\
+    \frac{x + 35}{10} & -35 < x \le -25 \\
     0 & \text{otherwise}
     \end{cases}    
 \end{align}
@@ -773,7 +773,7 @@ $a,b,c$ 為待求的係數。使用最小二乘法（Least Squares Method, LSM�
 \begin{align}
     \text{distance}_{\text{SL}}(x) = 
     \begin{cases}
-    \frac{x + 50}{25} & -50 < x \le -25 \\
+    \frac{x + 35}{10} & -35 < x \le -25 \\
     \frac{-x}{25} & -25 < x \le 0 \\
     0 & \text{otherwise}
     \end{cases}    
@@ -782,8 +782,8 @@ $a,b,c$ 為待求的係數。使用最小二乘法（Least Squares Method, LSM�
 \begin{align}
     \text{distance}_{Z}(x) = 
     \begin{cases}
-    \frac{x + 25}{25} & -25 < x \le 0 \\
-    \frac{25 - x}{25} & 0 < x \le 25 \\
+    \frac{x + 10}{10} & -10 < x \le 0 \\
+    \frac{10 - x}{10} & 0 < x \le 10 \\
     0 & \text{otherwise}
     \end{cases}    
 \end{align}
@@ -791,8 +791,8 @@ $a,b,c$ 為待求的係數。使用最小二乘法（Least Squares Method, LSM�
 \begin{align}
     \text{distance}_{\text{SR}}(x) = 
     \begin{cases}
-    \frac{x}{25} & 0 < x \le 25 \\
-    \frac{50 - x}{25} & 25 < x \le 50 \\
+    \frac{x}{20} & 0 < x \le 20 \\
+    \frac{35 - x}{15} & 20 < x \le 35 \\
     0 & \text{otherwise}
     \end{cases}    
 \end{align}
@@ -800,8 +800,8 @@ $a,b,c$ 為待求的係數。使用最小二乘法（Least Squares Method, LSM�
 \begin{align}
     \text{distance}_{\text{BR}}(x) = 
     \begin{cases}
-    \frac{x - 25}{25} & 25 < x \le 50 \\
-    1 & x \ge 50 \\
+    \frac{x - 20}{15} & 20 < x \le 35 \\
+    1 & x \ge 35 \\
     0 & \text{otherwise}
     \end{cases}    
 \end{align}
@@ -828,7 +828,7 @@ $a,b,c$ 為待求的係數。使用最小二乘法（Least Squares Method, LSM�
     \text{Vx}_{S}(x) = 
     \begin{cases}
     1 & 0 \le x \le 50 \\
-    \frac{100 - x}{50} & 50 < x \le 100 \\
+    \frac{80- x}{30} & 50 < x \le 80 \\
     0 & \text{otherwise}
     \end{cases}
 \end{align}
@@ -836,8 +836,8 @@ $a,b,c$ 為待求的係數。使用最小二乘法（Least Squares Method, LSM�
 \begin{align}
     \text{Vx}_{M}(x) = 
     \begin{cases}
-    \frac{x - 50}{50} & 50 < x \le 100 \\
-    \frac{150 - x}{50} & 100 < x \le 150 \\
+    \frac{x - 50}{30} & 50 < x \le 80 \\
+    \frac{150 - x}{70} & 80 < x \le 150 \\
     0 & \text{otherwise}
     \end{cases}
 \end{align}
@@ -845,8 +845,8 @@ $a,b,c$ 為待求的係數。使用最小二乘法（Least Squares Method, LSM�
 \begin{align}
     \text{Vx}_{F}(x) = 
     \begin{cases}
-    \frac{x - 100}{50} & 100 < x \le 150 \\
-    1 & 150 < x \le 200 \\
+    \frac{x - 80}{70} & 80 < x \le 150 \\
+    1 & 150 < x \le 150 \\
     0 & \text{otherwise}
     \end{cases}    
 \end{align}
@@ -873,8 +873,8 @@ $a,b,c$ 為待求的係數。使用最小二乘法（Least Squares Method, LSM�
 \begin{align}
     \text{Vy}_{LL}(x) = 
     \begin{cases}
-    1 & -50 \le x \le -40 \\
-    \frac{-20 - x}{20} & -40 < x \le -20 \\
+    1 & -30 \le x \le -20 \\
+    \frac{-12 - x}{8} & -20 < x \le -12 \\
     0 & \text{otherwise}
     \end{cases}       
 \end{align}
@@ -882,8 +882,8 @@ $a,b,c$ 為待求的係數。使用最小二乘法（Least Squares Method, LSM�
 \begin{align}
     \text{Vy}_{L}(x) = 
     \begin{cases}
-    \frac{x + 30}{15} & -30 < x \le -15 \\
-    \frac{-x}{15} & -15 < x \le 0 \\
+    \frac{x + 16}{4} & -16 < x \le -12 \\
+    \frac{-x}{12} & -12 < x \le 0 \\
     0 & \text{otherwise}
     \end{cases}    
 \end{align}
@@ -891,8 +891,8 @@ $a,b,c$ 為待求的係數。使用最小二乘法（Least Squares Method, LSM�
 \begin{align}
     \text{Vy}_{Z}(x) = 
     \begin{cases}
-    \frac{x + 15}{15} & -15 < x \le 0 \\
-    \frac{15 - x}{15} & 0 < x \le 15 \\
+    \frac{x + 14}{14} & -14 < x \le 0 \\
+    \frac{14 - x}{14} & 0 < x \le 14 \\
     0 & \text{otherwise}
     \end{cases}     
 \end{align}
@@ -900,8 +900,8 @@ $a,b,c$ 為待求的係數。使用最小二乘法（Least Squares Method, LSM�
 \begin{align}
     \text{Vy}_{R}(x) = 
     \begin{cases}
-    \frac{x}{15} & 0 < x \le 15 \\
-    \frac{30 - x}{15} & 15 < x \le 30 \\
+    \frac{x}{12} & 0 < x \le 12 \\
+    \frac{16 - x}{4} & 12 < x \le 16 \\
     0 & \text{otherwise}
     \end{cases}     
 \end{align}
@@ -909,8 +909,8 @@ $a,b,c$ 為待求的係數。使用最小二乘法（Least Squares Method, LSM�
 \begin{align}
     \text{Vy}_{RR}(x) = 
     \begin{cases}
-    \frac{x - 20}{20} & 20 < x \le 40 \\
-    1 & 40 < x \le 50 \\
+    \frac{x - 12}{8} & 12 < x \le 20 \\
+    1 & 20 < x \le 30 \\
     0 & \text{otherwise}
     \end{cases}       
 \end{align}
@@ -936,8 +936,8 @@ $a,b,c$ 為待求的係數。使用最小二乘法（Least Squares Method, LSM�
 \begin{align}
     \omega_{\text{CCW2}}(x) = 
     \begin{cases}
-    1 & -20 \le x \le -15 \\
-    \frac{-10 - x}{5} & -15 < x \le -10 \\
+    1 & -20 \le x \le -10 \\
+    \frac{-10 - x}{2} & -10 < x \le -8 \\
     0 & \text{otherwise}
     \end{cases}    
 \end{align}
@@ -945,8 +945,8 @@ $a,b,c$ 為待求的係數。使用最小二乘法（Least Squares Method, LSM�
 \begin{align}
     \omega_{\text{CCW}}(x) = 
     \begin{cases}
-    \frac{x + 15}{5} & -15 < x \le -10 \\
-    \frac{-x}{10} & -10 < x \le 0 \\
+    \frac{x + 10}{6} & -10 < x \le -4 \\
+    \frac{-x}{4} & -4 < x \le 0 \\
     0 & \text{otherwise}
     \end{cases}     
 \end{align}
@@ -954,8 +954,8 @@ $a,b,c$ 為待求的係數。使用最小二乘法（Least Squares Method, LSM�
 \begin{align}
     \omega_{Z}(x) = 
     \begin{cases}
-    \frac{x + 10}{10} & -10 < x \le 0 \\
-    \frac{10 - x}{10} & 0 < x \le 10 \\
+    \frac{x + 4}{4} & -4 < x \le 0 \\
+    \frac{4 - x}{4} & 0 < x \le 4 \\
     0 & \text{otherwise}
     \end{cases}    
 \end{align}
@@ -963,8 +963,8 @@ $a,b,c$ 為待求的係數。使用最小二乘法（Least Squares Method, LSM�
 \begin{align}
     \omega_{\text{CW}}(x) = 
     \begin{cases}
-    \frac{x}{10} & 0 < x \le 10 \\
-    \frac{15 - x}{5} & 10 < x \le 15 \\
+    \frac{x}{10} & 0 < x \le 4 \\
+    \frac{10 - x}{6} & 4 < x \le 10 \\
     0 & \text{otherwise}
     \end{cases}      
 \end{align}
@@ -972,8 +972,8 @@ $a,b,c$ 為待求的係數。使用最小二乘法（Least Squares Method, LSM�
 \begin{align}
     \omega_{\text{CW2}}(x) = 
     \begin{cases}
-    \frac{x - 10}{5} & 10 < x \le 15 \\
-    1 & 15 < x \le 20 \\
+    \frac{x - 8}{2} &  8< x \le 10 \\
+    1 & 10 < x \le 20 \\
     0 & \text{otherwise}
     \end{cases}      
 \end{align}
@@ -1222,8 +1222,385 @@ $a,b,c$ 為待求的係數。使用最小二乘法（Least Squares Method, LSM�
 可看到為最頂端的幾個偵測視窗，有偵測到其他條線，因此有偏離目標的現象，最後擬合的曲線在那部分也相較下方沒有完全貼合目標。
 由此可知透視變換之處理有其必要性。
 
-經這幾項測試，判此演算法之可行性，可用於循線自走車。
+經這幾項測試，判斷此影像處理及偵測方法可用於循線自走車。
 %==============================內文==============================
+
+\subsection{車輛模糊控制移動路徑模擬} 
+%==============================內文==============================
+\hspace{2em}在判斷此影像處理及偵測方法可用於循線自走車後，對模擬車輛經模糊控制後行進路進行分析。
+此部分用Matlab撰寫了一個模擬環境，依照場地規格，畫出競賽場，如圖\ref{fig:00}所示，其中藍色線為標線，紅色線為界線，黑色匡為車體本身。
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{untitled01.jpg}     %圖片檔案名稱
+    \caption{以matlab繪製出競賽場地}    %圖片檔案名稱
+    \label{fig:00}    %為圖片添加標籤
+    %如\ref{fig:2}所示
+\end{figure}
+
+在畫出競賽場地後，依照以下以下幾項前提進行模擬：
+
+\begin{itemize}
+    \item 車身長寬為20cm$\times$16cm(目前尚未製作車體，以在機電整合做的車模擬)
+    \item 車輛在取得控制命令後立即轉向及移動
+    \item 目前在個人電腦測試程式運行時間為0.2秒
+    \item 偵測車輛前方5cm、10cm與20cm處如(圖\ref{fig:02}所示)
+    \item 旋轉中心為車輛正中心
+    \item 車輛在移動過程中無任何干擾
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{untitled02.jpg}     %圖片檔案名稱
+    \caption{車輛偵測模擬圖}    %圖片檔案名稱
+    \label{fig:02}    %為圖片添加標籤
+    %如\ref{fig:2}所示
+\end{figure}
+
+下圖(圖\ref{fig:02})為依照設計的模糊控制器模擬之結果，車輛出發時，車頭完全對齊標線，無任何距離及角度偏差，車輛每0.2秒執行一次速度更改。
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{0_0_02_1.jpg}     %圖片檔案名稱
+    \caption{車輛路徑模擬圖}    %圖片檔案名稱
+    \label{fig:01}    %為圖片添加標籤
+    %如\ref{fig:2}所示
+\end{figure}
+
+由上圖(圖\ref{fig:02})可知，目前設計的模糊控制器是可行的，且車輛會在出發54.2秒後抵達終點。圖\ref{fig:0_0_02_2}及圖\ref{fig:0_0_02_4}為車輛對沿途移動速度及角速度。
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{0_0_02_2.jpg}     %圖片檔案名稱
+    \caption{車輛速度對應時間圖}    %圖片檔案名稱
+    \label{fig:0_0_02_2}    %為圖片添加標籤
+    %如\ref{fig:2}所示
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{0_0_02_4.jpg}     %圖片檔案名稱
+    \caption{車輛速度對應時間圖}    %圖片檔案名稱
+    \label{fig:0_0_02_4}    %為圖片添加標籤
+    %如\ref{fig:2}所示
+\end{figure}
+
+圖\ref{fig:0_0_02_3}為車輛對沿途移動速度的分量，包含前進速度$V_{x}$及側向速度$V_{y}$。由圖\ref{fig:0_0_02_3}可知因為車輛始終沒有偏離標線太多，
+所以側向速度$V_{y}$幾乎為零，正好符合次專題的設計車輛設計。
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{0_0_02_3.jpg}     %圖片檔案名稱
+    \caption{車輛速度分量對應時間圖}    %圖片檔案名稱
+    \label{fig:0_0_02_3}    %為圖片添加標籤
+    %如\ref{fig:2}所示
+\end{figure}
+
+圖\ref{fig:0_0_02_7}及圖\ref{fig:0_0_02_8}為車輛對沿途對標線的偏移量與角度差(以右、順時針為正，以正前方為0度)，由圖(圖\ref{fig:0_0_02_7})可知最大偏移量為6.1$cm$，，由圖(圖\ref{fig:0_0_02_7})可知痾量最大的角度差為17度。
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{0_0_02_7.jpg}     %圖片檔案名稱
+    \caption{車輛與標線距離差對應時間圖}    %圖片檔案名稱
+    \label{fig:0_0_02_7}    %為圖片添加標籤
+    %如\ref{fig:2}所示
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{0_0_02_8.jpg}     %圖片檔案名稱
+    \caption{車輛與標線角度差對應時間圖}    %圖片檔案名稱
+    \label{fig:0_0_02_8}    %為圖片添加標籤
+    %如\ref{fig:2}所示
+\end{figure}
+
+圖\ref{fig:0_0_02_5}及圖\ref{fig:0_0_02_6}為車輛對沿途偵測到標線的偏移量與角度差(以右、順時針為正，以正前方為0度)。
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{0_0_02_5.jpg}     %圖片檔案名稱
+    \caption{車輛偵測標線距離差對應時間圖}    %圖片檔案名稱
+    \label{fig:0_0_02_5}    %為圖片添加標籤
+    %如\ref{fig:2}所示
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{0_0_02_6.jpg}     %圖片檔案名稱
+    \caption{車輛偵測標線角度差對應時間圖}    %圖片檔案名稱
+    \label{fig:0_0_02_6}    %為圖片添加標籤
+    %如\ref{fig:2}所示
+\end{figure}
+
+由以上分析可知此控制系統是可以達成任務的。接下來是分析此控制系統之穩健性。分析內容包含影像的接收頻率(控制命令間隔)，與出發時車輛放置位置與角度。
+
+考慮到影像接收可能不穩定或樹莓派運算時間較長，首先分析控制命令間隔的容許度。由圖\ref{fig:0_0_1_1}可知每1秒進行一次控制是可行的。
+而由圖\ref{fig:0_0_2_1}可知，若以每2秒進行一次控制，將會在過彎時會稍微超出界線。
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{0_0_1_1.jpg}     %圖片檔案名稱
+    \caption{每1秒控制一次之車輛移動路徑模擬圖}    %圖片檔案名稱
+    \label{fig:0_0_1_1}    %為圖片添加標籤
+    %如\ref{fig:0_0_1_1}所示
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{0_0_2_1.jpg}     %圖片檔案名稱
+    \caption{每2秒控制一次之車輛移動路徑模擬圖}    %圖片檔案名稱
+    \label{fig:0_0_2_1}    %為圖片添加標籤
+    %如\ref{fig:2}所示
+\end{figure}
+
+模擬出此模糊控制器最長的控制時間間隔為1.67秒，若超過1.67秒(圖\ref{fig:0_0_17_1})，便會碰到界線。
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{0_0_17_1.jpg}     %圖片檔案名稱
+    \caption{每1.7秒控制一次之車輛移動路徑模擬圖}    %圖片檔案名稱
+    \label{fig:0_0_17_1}    %為圖片添加標籤
+    %如\ref{fig:2}所示
+\end{figure}
+
+接下來是模擬車輛在開始時的位置與角度偏移，以下模擬均以每0.2秒運算一次進行模擬。
+模擬初始角度有15度到-55度的偏差。如圖\ref{fig:0_15_02_1}～圖\ref{fig:0_-55_02_1}所示。
+可知在15度(圖\ref{fig:0_15_02_1})、在-55度圖\ref{fig:0_-55_02_1}之外會出界，在10度(圖\ref{fig:0_10_02_1})到-50度(圖\ref{fig:0_-50_02_1})間是可以到達終點的。
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{0_15_02_1.jpg}     %圖片檔案名稱
+    \caption{初始角度為15度之車輛移動路徑模擬圖}    %圖片檔案名稱
+    \label{fig:0_15_02_1}    %為圖片添加標籤
+    %如\ref{fig:2}所示
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{0_10_02_1.jpg}     %圖片檔案名稱
+    \caption{初始角度為10度之車輛移動路徑模擬圖}    %圖片檔案名稱
+    \label{fig:0_10_02_1}    %為圖片添加標籤
+    %如\ref{fig:2}所示
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{0_-15_02_1.jpg}     %圖片檔案名稱
+    \caption{初始角度為-15度之車輛移動路徑模擬圖}    %圖片檔案名稱
+    %如\ref{fig:2}所示
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{0_-35_02_1.jpg}     %圖片檔案名稱
+    \caption{初始角度為-35度之車輛移動路徑模擬圖}    %圖片檔案名稱
+    %如\ref{fig:2}所示
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{0_-50_02_1.jpg}     %圖片檔案名稱
+    \caption{初始角度為-50度之車輛移動路徑模擬圖}    %圖片檔案名稱
+    \label{fig:0_-50_02_1}    %為圖片添加標籤
+    %如\ref{fig:2}所示
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{0_-55_02_1.jpg}     %圖片檔案名稱
+    \caption{初始角度為-55度之車輛移動路徑模擬圖}    %圖片檔案名稱
+    \label{fig:0_-55_02_1}    %為圖片添加標籤
+    %如\ref{fig:2}所示
+\end{figure}
+
+最後模擬初始偏差有15$cm$到-55$cm$。如圖\ref{fig:4_0_02_1}～圖\ref{fig:07_0_02_1}所示。
+可知在4$cm$(圖\ref{fig:4_0_02_1})、在4$cm$圖\ref{fig:07_0_02_1}之外會出界，
+在3.5$cm$(圖\ref{fig:35_0_02_1})到4$cm$度(圖\ref{fig:065_0_02_1})間是可以到達終點的。
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{4_0_02_1.jpg}     %圖片檔案名稱
+    \caption{初始偏差為4$cm$之車輛移動路徑模擬圖}    %圖片檔案名稱
+    \label{fig:4_0_02_1}    %為圖片添加標籤
+    %如\ref{fig:2}所示
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{35_0_02_1.jpg}     %圖片檔案名稱
+    \caption{初始偏差為3.5$cm$之車輛移動路徑模擬圖}    %圖片檔案名稱
+    \label{fig:35_0_02_1}    %為圖片添加標籤
+    %如\ref{fig:2}所示
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{2_0_02_1.jpg}     %圖片檔案名稱
+    \caption{初始偏差為2$cm$之車輛移動路徑模擬圖}    %圖片檔案名稱
+    %如\ref{fig:2}所示
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{04_0_02_1.jpg}     %圖片檔案名稱
+    \caption{初始偏差為-4$cm$之車輛移動路徑模擬圖}    %圖片檔案名稱
+    %如\ref{fig:2}所示
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{065_0_02_1.jpg}     %圖片檔案名稱
+    \caption{初始偏差為-6.5$cm$之車輛移動路徑模擬圖}    %圖片檔案名稱
+    \label{fig:065_0_02_1}    %為圖片添加標籤
+    %如\ref{fig:2}所示
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{07_0_02_1.jpg}     %圖片檔案名稱
+    \caption{初始偏差為-7$cm$之車輛移動路徑模擬圖}    %圖片檔案名稱
+    \label{fig:07_0_02_1}    %為圖片添加標籤
+    %如\ref{fig:2}所示
+\end{figure}
+
+%==============================內文==============================
+
+\subsection{車輛結構優化分析} 
+%==============================內文==============================
+\hspace{2em}這部分是在做模型的形狀優化，我使用Fusion360來進行分析。
+輪椅的大輪的部分預測其會承受20$N$的力，為了方便計算，我先畫120$\circ$的扇形，輪胎外
+徑為140$mm$，內徑為5$mm$，厚度為 5$mm$，使用材料為PLA(材料特性如表\ref{tab:pla}所示)，經過軟體計算，在安全係數還有15的情況下，可以減少59.39$\%$的材料。
+
+\begin{table}[H]
+    \centering
+    \caption{PLA材料特性}
+    \vspace{6pt} % 增加空格
+    \label{tab:pla}
+    \begin{tabular}{ll}
+        \toprule
+        \textbf{項目} & \textbf{} \\
+        \midrule
+        密度  & $1.140E-06 (kg/mm^3)$ \\
+        楊氏模量  & $2.10(GPa)$ \\
+        泊松比  & $0.36$ \\
+        屈服祥度  & $26.94(MPa)$ \\
+        極限拉伸強度  & $2.1(MPa)$ \\
+        導熱率  & $1.6E-04 (W/mm\cdot C)$ \\
+        膨脹係數  & $8.57E-05 (1/C)$ \\
+        比熱  & $1800 (J/kg\cdot C)$ \\
+        \bottomrule
+    \end{tabular}
+    %如\ref{tab:TT2}所示
+\end{table}
+
+接下來再將整個輪框畫出來，再跑一次靜態應力分析，在軸承孔受力 20$N$
+的情況下，最大應力為 0.692$MPa$，最小應力為 $1.905\time10^{-4} MPa$。優化結果如表\ref{tab:bf}、圖\ref{fig:45}、圖\ref{fig:46}所示。
+
+\begin{table}[H]
+    \centering
+    \caption{PLA材料特性}
+    \vspace{6pt} % 增加空格
+    \label{tab:bf}
+    \begin{tabular}{llll}
+        \toprule
+        \textbf{原始模型} & \textbf{優化後模型}& \textbf{增加比例$\%$} \\
+        \midrule
+        最大應力($MPa$)         & $0.537$           & $0.692$       &$28.8$\\
+        應變                   & $4.329E-06$        & $5.371E-06$   &$24.07$\\
+        位移($mm$)              & $2.074E-05$       & $1.466E-05$   &  \\
+        質量比($\%$)            & $100$             & $40.61$       & $-59.39$ \\
+        \bottomrule
+    \end{tabular}
+    %如\ref{tab:TT2}所示
+\end{table}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{45.jpg}     %圖片檔案名稱
+    \caption{輪椅大輪的形狀優化1}    %圖片檔案名稱
+    \label{fig:45}
+    %如\ref{fig:example1}所示
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{46.jpg}     %圖片檔案名稱
+    \caption{輪椅大輪的形狀優化2}    %圖片檔案名稱
+    %如\ref{fig:example1}所示
+    \label{fig:46}
+\end{figure}
+
+先用120度的扇形模擬，再做整個輪框的分析。有經過變形調整，方便可視化分析。
+下圖為輪椅大輪(圖\ref{fig:47}～圖\ref{fig:49}）、輪椅側板(圖\ref{fig:50}～圖\ref{fig:52}）、小輪(圖\ref{fig:53}～圖\ref{fig:55}）的應力、應變、位移、安全係數分析。
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{47.jpg}     %圖片檔案名稱
+    \caption{輪椅大輪的應變分析}    %圖片檔案名稱
+    %如\ref{fig:example1}所示
+    \label{fig:47}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{48.jpg}     %圖片檔案名稱
+    \caption{輪椅大輪的位移分析}    %圖片檔案名稱
+    %如\ref{fig:example1}所示
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{49.jpg}     %圖片檔案名稱
+    \caption{輪椅大輪的應力分析}    %圖片檔案名稱
+    %如\ref{fig:example1}所示
+    \label{fig:49}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{50.jpg}     %圖片檔案名稱
+    \caption{輪椅側板的應力分析}    %圖片檔案名稱
+    %如\ref{fig:example1}所示
+    \label{fig:50}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{51.jpg}     %圖片檔案名稱
+    \caption{輪椅側板的位移分析}    %圖片檔案名稱
+    %如\ref{fig:example1}所示
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{52.jpg}     %圖片檔案名稱
+    \caption{輪椅側板的安全係數分析}    %圖片檔案名稱
+    %如\ref{fig:example1}所示
+    \label{fig:52}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{53.jpg}     %圖片檔案名稱
+    \caption{小輪的位移分析}    %圖片檔案名稱
+    %如\ref{fig:example1}所示
+    \label{fig:53}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{54.jpg}     %圖片檔案名稱
+    \caption{小輪的應力分析}    %圖片檔案名稱
+    %如\ref{fig:example1}所示
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{55.jpg}     %圖片檔案名稱
+    \caption{小輪的應變分析}    %圖片檔案名稱
+    %如\ref{fig:example1}所示
+    \label{fig:55}
+\end{figure}
+%==============================內文==============================
+
 
 \section{\centering 製程與實作}
 %==============================內文==============================
