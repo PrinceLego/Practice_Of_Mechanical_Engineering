@@ -26,15 +26,15 @@
 \contentsline {subsubsection}{\numberline {2.6.1}預處理}{9}{}%
 \contentsline {subsubsection}{\numberline {2.6.2}偵測}{13}{}%
 \contentsline {subsubsection}{\numberline {2.6.3}模糊控制}{16}{}%
-\contentsline {section}{\numberline {3}\centering 模擬與分析}{27}{}%
-\contentsline {subsection}{\numberline {3.1}影像偵測演算法模擬}{27}{}%
-\contentsline {subsection}{\numberline {3.2}車輛模糊控制移動路徑模擬}{32}{}%
-\contentsline {subsection}{\numberline {3.3}車輛結構優化分析}{45}{}%
-\contentsline {section}{\numberline {4}\centering 製程與實作}{50}{}%
-\contentsline {section}{\numberline {5}\centering 測試與驗證}{50}{}%
-\contentsline {subsection}{\numberline {5.1}風扇測試}{50}{}%
-\contentsline {section}{\numberline {6}\centering 結論與反思}{52}{}%
-\contentsline {section}{\numberline {7}\centering 參考文獻}{52}{}%
-\contentsline {section}{\numberline {8}\centering 附錄}{52}{}%
-\contentsline {subsection}{\numberline {8.1}程式碼}{52}{}%
-\contentsline {subsection}{\numberline {8.2}物料清單與發票收據}{53}{}%
+\contentsline {section}{\numberline {3}\centering 模擬與分析}{26}{}%
+\contentsline {subsection}{\numberline {3.1}影像偵測演算法模擬}{26}{}%
+\contentsline {subsection}{\numberline {3.2}車輛模糊控制移動路徑模擬}{31}{}%
+\contentsline {subsection}{\numberline {3.3}車輛結構優化分析}{44}{}%
+\contentsline {section}{\numberline {4}\centering 製程與實作}{48}{}%
+\contentsline {section}{\numberline {5}\centering 測試與驗證}{49}{}%
+\contentsline {subsection}{\numberline {5.1}風扇測試}{49}{}%
+\contentsline {section}{\numberline {6}\centering 結論與反思}{50}{}%
+\contentsline {section}{\numberline {7}\centering 參考文獻}{51}{}%
+\contentsline {section}{\numberline {8}\centering 附錄}{51}{}%
+\contentsline {subsection}{\numberline {8.1}程式碼}{51}{}%
+\contentsline {subsection}{\numberline {8.2}物料清單與發票收據}{51}{}%

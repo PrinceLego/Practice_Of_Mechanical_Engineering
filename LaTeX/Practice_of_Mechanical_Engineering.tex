@@ -90,7 +90,7 @@
     \vfill % 這一行讓前面的資訊靠上排列
 
     {\LARGE{孤輪阿罵的飆速輪椅}} \\[0.5cm]% 這行會上下左右完全置中
-    {\LARGE{機械工程實務進度報告2}} % 這行會上下左右完全置中
+    {\LARGE{機械工程實務期末報告}} % 這行會上下左右完全置中
 
     \vfill % 這一行讓後面的資訊靠下排列
 
@@ -457,7 +457,7 @@
     %如\ref{fig:example1}所示
 \end{figure}
 
-演算法的輸入為影像，演算法的輸出為車輛為$V_{x}$、$V_{y}$與$\omega$，定義如下圖\ref{fig:10}所示。
+演算法的輸入為影像，演算法的輸出為車輛為$V$與$\omega$，定義如下圖\ref{fig:10}所示。
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{10.jpg}     %圖片檔案名稱
@@ -986,11 +986,11 @@ $a,b,c$ 為待求的係數。使用最小二乘法（Least Squares Method, LSM�
     %如\ref{fig:example1}所示
 \end{figure}
 
-接著是定義控制規則庫，$V_{x}$之控制規則表、$V_{y}$控制規則表與$\omega$控制規則表，如下所示。
+接著是定義控制規則庫，$V$之控制規則表與$\omega$控制規則表，如下所示。
 
 \begin{table}[H]
     \centering
-    \caption{$V_{x}$控制規則表}
+    \caption{$V$控制規則表}
     \vspace{6pt} % 增加空格
     \begin{tabular}{|c|c|c|c|c|c|}
     \hline
@@ -1010,27 +1010,6 @@ $a,b,c$ 為待求的係數。使用最小二乘法（Least Squares Method, LSM�
     \label{tab:fu1}
 \end{table}
 
-\begin{table}[H]
-    \centering
-    \caption{$V_{y}$控制規則表}
-    \vspace{6pt} % 增加空格
-    \begin{tabular}{|c|c|c|c|c|c|}
-    \hline
-    \diagbox{\textbf{Angle($^\circ$)}}{\textbf{Position(cm)}}& \textbf{BL} & \textbf{SL} & \textbf{Z} & \textbf{SR} & \textbf{BR} \\
-    \hline
-    \textbf{BL} & RR & R & Z & L & LL \\
-    \hline
-    \textbf{SL} & RR & R & Z & L & LL \\
-    \hline
-    \textbf{Z} & RR & R & Z & L & LL \\
-    \hline
-    \textbf{SR} & RR & R & Z & L & LL \\
-    \hline
-    \textbf{BR} & RR & R & Z & L & LL \\
-    \hline
-    \end{tabular}
-    \label{tab:fu2}
-\end{table}
 
 \begin{table}[H]
     \centering
@@ -1073,7 +1052,7 @@ $a,b,c$ 為待求的係數。使用最小二乘法（Least Squares Method, LSM�
     \bar{z}_\alpha = \frac{1}{N_\alpha} \sum_{i=1}^{N_\alpha} z_i 
 \end{align}
 
-最後即可取得不同偏差角度$angle$及位置偏移量$distance$對應之前進速度$V_{x}$(圖\ref{fig:25})、側向數度$V_{y}$(圖\ref{fig:26})與角速度$\omega$(圖\ref{fig:27})。
+最後即可取得不同偏差角度$angle$及位置偏移量$distance$對應之前進速度$V_{x}$(圖\ref{fig:25})與角速度$\omega$(圖\ref{fig:27})。
 
 \begin{figure}[H]
     \centering
@@ -1083,13 +1062,7 @@ $a,b,c$ 為待求的係數。使用最小二乘法（Least Squares Method, LSM�
     %如\ref{fig:example1}所示
 \end{figure}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{26.jpg}     %圖片檔案名稱
-    \caption{不同偏差角度及偏移量對應之側向數度$V_{y}$}    %圖片檔案名稱
-    \label{fig:26}    %為圖片添加標籤
-    %如\ref{fig:example1}所示
-\end{figure}
+
 
 \begin{figure}[H]
     \centering
@@ -1280,27 +1253,16 @@ $a,b,c$ 為待求的係數。使用最小二乘法（Least Squares Method, LSM�
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{0_0_02_4.jpg}     %圖片檔案名稱
-    \caption{車輛速度對應時間圖}    %圖片檔案名稱
+    \caption{車輛速度對應角速度時間圖}    %圖片檔案名稱
     \label{fig:0_0_02_4}    %為圖片添加標籤
     %如\ref{fig:2}所示
 \end{figure}
 
-圖\ref{fig:0_0_02_3}為車輛對沿途移動速度的分量，包含前進速度$V_{x}$及側向速度$V_{y}$。由圖\ref{fig:0_0_02_3}可知因為車輛始終沒有偏離標線太多，
-所以側向速度$V_{y}$幾乎為零，正好符合次專題的設計車輛設計。
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{0_0_02_3.jpg}     %圖片檔案名稱
-    \caption{車輛速度分量對應時間圖}    %圖片檔案名稱
-    \label{fig:0_0_02_3}    %為圖片添加標籤
-    %如\ref{fig:2}所示
-\end{figure}
-
-圖\ref{fig:0_0_02_7}及圖\ref{fig:0_0_02_8}為車輛對沿途對標線的偏移量與角度差(以右、順時針為正，以正前方為0度)，由圖(圖\ref{fig:0_0_02_7})可知最大偏移量為6.1$cm$，，由圖(圖\ref{fig:0_0_02_7})可知痾量最大的角度差為17度。
+圖\ref{fig:0_0_02_7}及圖\ref{fig:0_0_02_8}為車輛對沿途對標線的偏移量與角度差(以右、順時針為正，以正前方為0度)，由圖(圖\ref{fig:0_0_02_8})可知最大偏移量為6.1$cm$，，由圖(圖\ref{fig:0_0_02_7})可知最大的角度差為17度。
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{0_0_02_7.jpg}     %圖片檔案名稱
-    \caption{車輛與標線距離差對應時間圖}    %圖片檔案名稱
+    \caption{車輛與標線角度差對應時間圖}    %圖片檔案名稱
     \label{fig:0_0_02_7}    %為圖片添加標籤
     %如\ref{fig:2}所示
 \end{figure}
@@ -1308,7 +1270,7 @@ $a,b,c$ 為待求的係數。使用最小二乘法（Least Squares Method, LSM�
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{0_0_02_8.jpg}     %圖片檔案名稱
-    \caption{車輛與標線角度差對應時間圖}    %圖片檔案名稱
+    \caption{車輛與標線距離差對應時間圖}    %圖片檔案名稱
     \label{fig:0_0_02_8}    %為圖片添加標籤
     %如\ref{fig:2}所示
 \end{figure}
