@@ -1,18 +1,18 @@
 # Fdb version 4
-["biber Practice_of_Mechanical_Engineering"] 1744906087.43574 "Practice_of_Mechanical_Engineering.bcf" "Practice_of_Mechanical_Engineering.bbl" "Practice_of_Mechanical_Engineering" 1746682402.85124 0
-  "Practice_of_Mechanical_Engineering.bcf" 1746682388.73228 107387 3958be5e3bdcb41b52f5f66ebe87398a "xelatex"
+["biber Practice_of_Mechanical_Engineering"] 1744906087.43574 "Practice_of_Mechanical_Engineering.bcf" "Practice_of_Mechanical_Engineering.bbl" "Practice_of_Mechanical_Engineering" 1750343864.60663 0
+  "Practice_of_Mechanical_Engineering.bcf" 1750343849.98747 107387 3958be5e3bdcb41b52f5f66ebe87398a "xelatex"
   "Practice_of_Mechanical_Engineering.bib" 1744894962.58911 2971 31f4ad3ef1ac466062df622f85559e48 ""
   (generated)
   "Practice_of_Mechanical_Engineering.bbl"
   "Practice_of_Mechanical_Engineering.blg"
   (rewritten before read)
-["xdvipdfmx"] 1746682388.82387 "Practice_of_Mechanical_Engineering.xdv" "Practice_of_Mechanical_Engineering.pdf" "Practice_of_Mechanical_Engineering" 1746682402.85349 0
-  "Practice_of_Mechanical_Engineering.xdv" 1746682388.73346 392296 fe64a5cd9601b400912fd85d4776afd9 "xelatex"
+["xdvipdfmx"] 1750343850.08113 "Practice_of_Mechanical_Engineering.xdv" "Practice_of_Mechanical_Engineering.pdf" "Practice_of_Mechanical_Engineering" 1750343864.60904 0
+  "Practice_of_Mechanical_Engineering.xdv" 1750343849.98938 425888 eedd644bb5c764d0c66bf15d2cb6b065 "xelatex"
   (generated)
   "Practice_of_Mechanical_Engineering.pdf"
   (rewritten before read)
-["xelatex"] 1746682387.18392 "/Users/prince_lego/Desktop/progarm/LeTaX/Practice_of_Mechanical_Engineering/LaTeX/Practice_of_Mechanical_Engineering.tex" "Practice_of_Mechanical_Engineering.xdv" "Practice_of_Mechanical_Engineering" 1746682402.85131 0
-  "/Users/prince_lego/Desktop/progarm/LeTaX/Practice_of_Mechanical_Engineering/LaTeX/Practice_of_Mechanical_Engineering.tex" 1746682383.44713 68886 e1aace72ff6d8130b71539b0da26f63a ""
+["xelatex"] 1750343848.22291 "/Users/prince_lego/Desktop/progarm/LeTaX/Practice_of_Mechanical_Engineering/LaTeX/Practice_of_Mechanical_Engineering.tex" "Practice_of_Mechanical_Engineering.xdv" "Practice_of_Mechanical_Engineering" 1750343864.60669 0
+  "/Users/prince_lego/Desktop/progarm/LeTaX/Practice_of_Mechanical_Engineering/LaTeX/Practice_of_Mechanical_Engineering.tex" 1750343847.84362 73088 e809e51e00336ffc351c967e739317c1 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmr12.tfm" 1254269338 12092 7b1546e2d096cfd5dcbd4049b0b1ec2e ""
@@ -225,10 +225,13 @@
   "24.jpg" 1746366861.2983 43339 691dd6201c7a583684f83936ab5840b5 ""
   "25.jpg" 1746369806.65704 26451 f7ce7579d31bdf6302f3f12857b81aa5 ""
   "27.jpg" 1746369832.84568 24339 18697dee7d7d49ead840641da66a3060 ""
-  "28.jpg" 1744952663.62927 123013 6731f1fd3b73e7e932798f64c586e50b ""
-  "29.jpg" 1744952699.40253 41852 47216237aa463d548d9bbf784e22fad1 ""
+  "28.jpg" 1749436640.92122 112123 94b22c31515d508789a0d20331084f4b ""
+  "29.jpg" 1749436726.68408 112364 3ac351f66a36abfca20ae6e2c11799fc ""
   "2_0_02_1.jpg" 1746380762.75635 153177 b3af4a633bdb3d5af1a6fe1b831a64d1 ""
   "3.jpg" 1744875616.38413 298463 470f3784097cebbb72041cb44ebadbaa ""
+  "30.jpg" 1749436695.73085 114181 08c5613d4db402567221379476247ed4 ""
+  "31.jpg" 1749436678.88357 111101 49cc4351b56ea144afc810718a0fd396 ""
+  "32.jpg" 1749436659.12444 108858 975f9c99a62aef0569f8b30088fe7dfb ""
   "35.jpg" 1740624494.00422 477668 e78c17e3dca183fce4863b6d642bcadc ""
   "35_0_02_1.jpg" 1746380684.85734 151704 ed65efbd9cfa6a6fb802169c45c47ab1 ""
   "37.jpg" 1741598762.20433 990831 5e57b28e0e7027911ad57b8516db7aa6 ""
@@ -257,14 +260,19 @@
   "7.jpg" 1744875680.27828 295831 775fa5b34f85d67340f904be9087d188 ""
   "8.jpg" 1744875692.8313 857981 06d29d3686123d4af63268c08a140fbf ""
   "9.jpg" 1744893797.01511 146403 6e97a5aee3c423800ddd93ddc84346a0 ""
-  "Practice_of_Mechanical_Engineering.aux" 1746682388.72963 19328 3a782929e33debd5494f9b005ca9e664 "xelatex"
+  "LINE_capture_772034270.455148.jpg" 1750341501.56655 120822 2f6a47ca19ffb640a28d92f59cd4dead ""
+  "Practice_of_Mechanical_Engineering.aux" 1750343849.98488 20913 19edb79067b2cf79f2bc489b011eb60a "xelatex"
   "Practice_of_Mechanical_Engineering.bbl" 1744906090.86567 5345 125ca4dfc2f0893ca3ce2a917611173e "biber Practice_of_Mechanical_Engineering"
-  "Practice_of_Mechanical_Engineering.lof" 1746682388.73337 7371 bc26b0860f918f9b2e123408db83d426 "xelatex"
-  "Practice_of_Mechanical_Engineering.lot" 1746682388.73342 473 09e00707ace2d4558ab4eb88280cd267 "xelatex"
-  "Practice_of_Mechanical_Engineering.run.xml" 1746682388.73323 2671 f6f2262698087135a76dd9fff4f71aec "xelatex"
-  "Practice_of_Mechanical_Engineering.tex" 1746682383.44713 68886 e1aace72ff6d8130b71539b0da26f63a ""
-  "Practice_of_Mechanical_Engineering.toc" 1746682388.73335 2753 cf1890fd72f21a52470bd320d9a720d4 "xelatex"
+  "Practice_of_Mechanical_Engineering.lof" 1750343849.98927 7929 8f9a3636e6e9b78d31ab3d9a21ebbcf3 "xelatex"
+  "Practice_of_Mechanical_Engineering.lot" 1750343849.98932 473 76a64a675ef36e7e22ef966b2d008446 "xelatex"
+  "Practice_of_Mechanical_Engineering.run.xml" 1750343849.98908 2671 f6f2262698087135a76dd9fff4f71aec "xelatex"
+  "Practice_of_Mechanical_Engineering.tex" 1750343847.84362 73088 e809e51e00336ffc351c967e739317c1 ""
+  "Practice_of_Mechanical_Engineering.toc" 1750343849.98924 3137 b01108fa76b6d6bc25947970533e87ea "xelatex"
+  "abc.png" 1746683077.71856 290911 baa3766c21ca20ea1de10c05ad3f2a19 ""
   "frame_with_points_real.jpg" 1728892543.75538 447822 cd000d5bab1f5a3aea2bce007e6205e0 ""
+  "fuzzy_in.jpg" 1749317046.78444 207690 a8fc6b1559034d136b95fe560b0672c6 ""
+  "fuzzy_out.jpg" 1749317066.53702 225811 458d8b1f493ccde1abe51be68d32defd ""
+  "fuzzy_st.jpg" 1749317028.32305 226662 509a18314b2cbcb5a57f9ee399206aee ""
   "untitled01.jpg" 1746373047.89974 105040 f2ed1d18c5a9e74da6ec964b1d10ceab ""
   "untitled02.jpg" 1746374976.63939 90512 a338ed841b0fc1c994e530fba57be0f3 ""
   (generated)
